@@ -25,17 +25,17 @@ getResult = (result)=>{
  	 // console.log("val",val.Global.NewConfirmed)
  	 Todaytotalcase.innerHTML ="last updated      :"+ val.Global.Date
  	 // NewConfirmed.innerHTML = val.Global.NewConfirmed
- 	 TotalConfirmed.innerHTML = val.Global.TotalConfirmed
+ 	 TotalConfirmed.innerHTML = val.Global.TotalConfirmed.toLocaleString()
    //   NewDeaths.innerHTML = val.Global.NewDeaths
-      TotalDeaths.innerHTML = val.Global.TotalDeaths
+      TotalDeaths.innerHTML = val.Global.TotalDeaths.toLocaleString()
    //   NewRecovered.innerHTML = val.Global.NewRecovered;
-     TotalRecovered.innerHTML = val.Global.TotalRecovered;
+     TotalRecovered.innerHTML = val.Global.TotalRecovered.toLocaleString();
 	
  })
 }
 
 
-
+// toLocaleString
 
 
 
