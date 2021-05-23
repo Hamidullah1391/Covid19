@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+   <style>
+
+.nav-item {
+  margin-right: 50px;
+}
+.Gmessage{
+  width: 700px;
+  height: 50px;
+  background-color: #eeeeee;
+  font-family: roboto condensed,sans-serif;
+}
+   
+</style> 
+
+    <title>IMAPP Covid 19</title>
+  </head>
+  <body>
+   <div class="container p-0">
+  <nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+   
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0 d-flex justify-content-between" style="width: 700px">
+
+        <li class="nav-item ">
+          <a class="nav-link active text-danger " aria-current="page" href="#"><h1>CoronaVirus</h1></a>
+        </li>
+      </ul>
+     
+    </div>
+  </div>
+</nav>  
+
+<div class="container">
+  <h5 class="text-center pt-2">COVID-19 CORONAVIRUS PANDEMIC</h5>
+  <p class="text-center py-3  today-totalcase" style="font-size: 12px;">Last Updated:</p>
+</div>
+  
+</div>
+<br>
+
+   <div class="container" id="globe">
+    
+        <!-- <h3 class="today-totalcase"></h3> -->
+      <div class="text-center">
+       <!-- <h3 class="card-text state-heading">New Confirmed Cases</h3> -->
+       <!-- <h1 class="New-Confirmed text-warning"></h1> -->
+       <br>
+        <h3 class="state-heading card-text">Coronavirus Cases</h3>
+        <h1 class="Total-Confirmed text-warning" style="color:#aaa"></h1>
+        <br>
+      <!--   <h3 class="state-heading card-title">New Deaths</h3>
+        <h1 class="New-Deaths text-danger"></h1>
+        <br> -->
+        <h3 class="state-heading card-title">Total Deaths</h3>
+        <h1 class="Total-Deaths text-danger"></h1>
+        <br>
+       <!--  <h2 class="state-heading card-title">New Recovered</h2>
+        <h1 class="New-Recovered text-success"></h1>
+         <br> -->
+        <h2 class="state-heading card-title">Total Recovered</h2>
+        <h1 class="Total-Recovered text-success"></h1>    
+        </div>
+      </div>
+
+       <div class="container text-center">
+      <button class="btn btn-primary" id="btn1">view by country</button>
+    </div>
+
+    <div class="container text-center" id="results">
+      
+    </div>
+       
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="bootstrap/js/bootstrap.bundle.min.js" integrity=""></script>
+    <script src="js/main.js"></script>
+    <script src="js/country.js"></script>
+
+
+  
+  </body>
+</html>
