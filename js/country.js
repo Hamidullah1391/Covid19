@@ -1,9 +1,15 @@
 var btn1 = document.getElementById("btn1");
+var home = document.getElementById("Home");
 
 btn1.addEventListener('click', () => {
 
 const globe = document.getElementById("globe");
-globe.style.display ="none";
+const home = document.getElementById("Home");
+
+ globe.style.display ="none";
+ btn1.style.display = "none";
+// home.style.display="inline";
+// home.style.marginTop ="6";
     // fetch request to api
 
      fetch('https://api.covid19api.com/summary')
@@ -14,7 +20,7 @@ globe.style.display ="none";
         // var rows = Object.keys(data);
 
         var template = `
-        <h4>Covid Cases</h4>
+       
         
         `
         template +=`<input type="text" name="" id="filter" class="form-control" placeholder="Filter...." onKeyup="searchFunction()">`
